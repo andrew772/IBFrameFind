@@ -118,7 +118,7 @@
                 _objectName = [attributeDict objectForKey:@"userLabel"];
             }
             else{
-                _objectName = [NSString stringWithFormat:@"**No_Name**%@",elementName];
+                _objectName = [NSString stringWithFormat:@"(NO_NAME)%@",elementName];
             }
         }
         else if([elementName isEqualToString:@"rect"]){
