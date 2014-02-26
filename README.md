@@ -12,6 +12,7 @@ IBFrameFind then parses out the frame values from thre xib files and prints them
 --- fileOne.xib ---
 
 _myFirstView.frame = CGRectMake(x, y, width, height);
+
 _mySecondView.frame = CGRectMake(x, y, width, height);
 
 --- fileTwo.xib ---
