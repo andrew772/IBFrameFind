@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]){
     @autoreleasepool{
         
         if(argc < 2){
-            printf("Usage: ./IBFrameFind file1.storyboard file2.xib ...\n");
+            printf("Usage: ./IBFrameFind fileOne.xib fileTwo.xib ...\n");
         }
         
         else{
@@ -26,7 +26,7 @@ int main(int argc, const char * argv[]){
             }
     
             IBParser *parser = [[IBParser alloc] init];
-            [parser parserFiles:files];
+            [parser parseFiles:files];
         }
         
     }

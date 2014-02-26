@@ -64,8 +64,7 @@
 
 #pragma mark - XML Methods
 
-- (void)parserFiles:(NSArray*)files{
-    
+- (void)parseFiles:(NSArray*)files{
     
     NSFileManager *fileManager = [[NSFileManager alloc] init];
     

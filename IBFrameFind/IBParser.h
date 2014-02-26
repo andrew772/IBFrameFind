@@ -12,6 +12,6 @@
 <NSStreamDelegate,
 NSXMLParserDelegate>
 
-- (void)parserFiles:(NSArray *)files;
+- (void)parseFiles:(NSArray *)files;
 
 @end
